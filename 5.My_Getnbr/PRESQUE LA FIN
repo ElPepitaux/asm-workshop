@@ -1,0 +1,9 @@
+Implémenter votre propre version de Getnbr, la fameuse fonction connue de tous à Epitech...
+(il n'est pas nécessaire de gérer les chiffres négatifs et encore moins les cas spéciaux, considérez que tout sera positif et uniquement compris entre '0' et '9', voir le main)
+
+
+## Comment compiler (POUR CET EXERCICE) ?
+
+nasm -f elf64 My_Getnbr.asm
+
+gcc main.c My_Getnbr.o

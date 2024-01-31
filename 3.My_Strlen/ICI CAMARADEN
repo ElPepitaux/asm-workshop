@@ -1,0 +1,9 @@
+codez votre implémentation de STRLEN en assembleur ici
+
+(ne vous souciez pas des cas d'erreurs, pas d'inquiétude)
+
+## Comment compiler (POUR CET EXERCICE) ?
+
+nasm -f elf64 Strlen.asm            (pour créer le fichier objet)
+
+gcc main.c Strlen.o                 (pour "faire apparaître" ton executable)

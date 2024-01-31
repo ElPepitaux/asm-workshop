@@ -1,0 +1,18 @@
+je suppose que vous connaissez tous le fameux hidenp...
+
+En effet c'est un des sujet de solo stumper qui consiste à trouver une chaîne de caractères dans une autre chaîne de caractères
+
+(UNE AIGUILLE DANS UN TAS DE FOIN)
+
+Par exemple:
+
+    Aiguille : "guidon"
+
+    Tas de foin: "aguideofn" ==> "aGUIDeOfN" ==> "guidon", ou l'aiguille, est donc présente dans le tas de foin "aguideofn"
+
+## Comment compiler (POUR CET EXERCICE) ?
+
+nasm -f elf64 Hidenp.asm
+
+gcc main.c Hidenp.o
+

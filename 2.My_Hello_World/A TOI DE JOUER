@@ -1,0 +1,8 @@
+codez dans "HelloWorld.asm" qui affiche "Hello, World!"
+
+## Comment compiler (POUR CET EXERCICE) ?
+
+nasm -f elf64 HelloWorld.asm            (pour créer le fichier objet)
+
+ld HelloWorld.o                         (pour "faire apparaître" ton executable)
+

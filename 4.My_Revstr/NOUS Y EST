@@ -1,0 +1,8 @@
+Implémenter votre version de revstr de la libc
+
+
+## Comment compiler (POUR CET EXERCICE) ?
+
+nasm -f elf64 Revstr.asm            (pour créer le fichier objet)
+
+gcc main.c Revstr.o                 (pour "faire apparaître" ton executable)
